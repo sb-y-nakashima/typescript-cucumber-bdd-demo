@@ -1,0 +1,16 @@
+{
+  "name": "typescript-cucumber-bdd-demo",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "test": "cucumber-js"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
